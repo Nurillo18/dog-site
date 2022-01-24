@@ -1,0 +1,84 @@
+.monthly__head{
+    display: block;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32.25px;
+    line-height: 45px;
+    text-align: center;
+    color: #170C04;
+    padding-top: 116px;
+    width: 468px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.monthly__list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding-top: 36px;
+}
+.monthly__item{
+    width: 359px;
+}
+
+.monthly__img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.monthly__heading{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #170C04;
+    text-align: center;
+    padding-top: 51px;
+}
+
+.monthly__desc-box{
+    width: 359px;
+}
+
+.monthly__desc{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #170C04;
+    opacity: 0.6;
+}
+
+.monthly__btn{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background: #E27B3A;
+    border-radius: 24px;
+    max-width: 131px;
+    margin-top: 46px;
+
+    &:hover{
+        color: lightblue;
+    }
+}

@@ -1,0 +1,154 @@
+.best-quality__list{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-top: 168px;
+}
+.best-quality__item{
+
+    padding: 40px 25px 18px 25px;
+    width: 360px;
+    height: 241px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    border-radius: 8px;
+    transition: 0.5s;
+
+    & +& {
+        margin-left: 61px;
+    }
+
+    &:hover{
+        display: block;
+        box-shadow: 0 0 7px 1px black;
+    }
+}
+.best-quality__heading{
+    display: flex;
+    align-items: center ;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 37px;
+    text-align: center;
+    color: #170C04;
+
+    &::before{
+        content: '';
+        display: block;
+        background-image: url("../images/mea.svg");
+        background-repeat: no-repeat;
+        background-position:center;
+        background-size: 27px;
+        position: relative;
+        bottom: 78px;
+        left: 144px;
+        width: 37px;
+        height: 37px;
+    }
+}
+
+.best-quality__secound-quality{
+    display: flex;
+    align-items: center ;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 37px;
+    text-align: center;
+    color: #170C04;
+
+    &::before{
+        content: '';
+        display: block;
+        background-image: url("../../images/meal-sec.svg");
+        background-repeat: no-repeat;
+        background-position:center;
+        background-size: 41px;
+        position: relative;
+        bottom: 78px;
+        left: 144px;
+        width: 37px;
+        height: 37px;
+
+    }
+}
+
+
+.best-quality__desc-box{
+    width: 298px;
+    align-items: center;
+    padding-top: 11px;
+
+}
+
+.best-quality__desc{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    opacity: 0.6;
+}
+
+.best-quality__know-link{
+    display: block;
+    text-decoration:none;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #E27B3A;
+    text-align: center;
+    padding-top: 24px;
+
+    &:hover{
+        color: #333;
+    }
+
+}
+
+.best-quality__third-quality{
+    display: flex;
+    align-items: center ;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 37px;
+    text-align: center;
+    color: #170C04;
+
+    &::before{
+        content: '';
+        display: block;
+        background-image: url("../../images/puppy-meal.svg");
+        background-repeat: no-repeat;
+        background-position:center;
+        background-size: 41px;
+        z-index: 2;
+        position: relative;
+        bottom: 78px;
+        left: 144px;
+        width: 37px;
+        height: 37px;
+    }
+}

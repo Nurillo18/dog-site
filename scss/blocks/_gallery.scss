@@ -1,0 +1,138 @@
+.gallery__page{
+    display: flex;
+    padding-top: 130px;
+}
+
+.gallery__head{
+    margin: 0;
+    position: 0;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32.25px;
+    line-height: 45px;
+    text-align: center;
+    color: #170C04;
+}
+.gallery__desc-box{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 12px;
+    width: 554px;
+
+}
+
+.gallery__desc{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #170C04;
+    opacity: 0.6;
+
+}
+
+.gallery__card-first{
+    padding: 25px 41px 25px 37px;
+    width: 262px;
+    background: #900A08;
+    background-color: #FCF2EB;
+    border-radius: 5px;
+}
+
+.gallery__bg-img{
+    display: block;
+    background-image: url("../images/red-m.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 184px;
+    height: 120px;
+}
+
+.gallery__card{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery__card-first{
+    margin-top: 26px;
+    transition: 0.5s;
+
+
+    &:hover{
+        display: block;
+        box-shadow: 0 0 7px 1px black;
+    }
+}
+
+.card-gallery{
+    padding: 30px 48px 30px 44px;
+    width: 262px;
+}
+
+.bg-gallery{
+    display: block;
+    background-image: url("../images/pink-m.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 170px;
+    height: 110px;
+}
+
+.secound-card{
+    margin-left: 30px;
+    padding: 25px 40px 27px 40px;
+    width: 262px;
+}
+
+.secound-bg{
+    display: block;
+    background-image: url("../images/blue-m.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 182px;
+    height: 118px;
+}
+
+.four-card{
+    margin-left: 30px;
+    padding: 25px 39px 25px 39px;
+    width: 262px;
+}
+
+.four-bg{
+    display: block;
+    background-image: url("../images/dark-pink-m.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 184px;
+    height: 119px;
+}
+
+.gallery__right-part{
+    padding: 39px 46px 45px 46px;
+    display: block;
+    width: 555px;
+    border-radius: 10px;
+    background-color: #FCF2EB;
+    transition: 0.5s;
+
+
+    &:hover{
+        display: block;
+        box-shadow: 0 0 7px 1px black;
+    }
+
+}
+.gallery__light-pink-m{
+    display: block;
+    background-image: url("../../images/pink-and-dog.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 463px;
+    height: 425px;
+}

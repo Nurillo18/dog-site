@@ -1,0 +1,85 @@
+.dog-forever{
+    padding: 102px 64px 102px 69px;
+    background-image: url("../../images/behind-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    position: relative;
+    margin-top: 86px;
+}
+
+.dog-forever__page{
+    display: flex;
+    align-items: center;
+}
+
+.dog-forever__head{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 31.25px;
+    line-height: 41px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.dog-forever__desc-box{
+    width: 423px;
+}
+
+.dog-forever__desc{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    opacity: 0.7;
+    padding-top: 17px;
+}
+
+.dog-forever__input{
+    position: relative;
+    padding: 15px 324px 14px 21px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+
+    &::placeholder{
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 41px;
+        display: flex;
+        align-items: center;
+        color: #170C04;
+        opacity: 0.4;
+    }
+}
+
+.dog-forever__btn{
+    position: absolute;
+    left:985px;
+    padding: 15px 37px;
+    background: #E27B3A;
+    border-radius: 0px 10px 10px 0px;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    color: #FFFFFF;
+
+    &:hover{
+        color: aqua;
+    }
+}
+.dog-forever__form{
+    padding-left: 66px;
+}

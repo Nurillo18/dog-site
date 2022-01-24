@@ -1,0 +1,112 @@
+.site-footer{
+    margin-top: 140px;
+    padding-top: 69px;
+    padding-bottom: 105px;
+    width: 100%;
+    position: absolute;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.footer__link{
+    display: block;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    opacity: 0.8;
+
+    & + &{
+        padding-top: 37px;
+    }
+
+    &:hover{
+        color: lightblue;
+    }
+}
+
+.footer__links{
+    text-decoration: none;
+    color:#E27B3A;
+}
+
+.footer__network{
+    display: flex;
+    align-items: center;
+    padding-top: 66px;
+}
+
+.footer__heading{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 30px;
+    color: #FFFFFF;
+
+    &::before{
+        content: '';
+        position:absolute;
+        top: -61px;
+        left:56%;
+        display: block;
+        background-image: url("../images/wolf.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 48px;
+        height: 51px;
+    }
+}
+
+.footer__facebook{
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color:#DFDFDF;
+
+    &:hover{
+        background-color: aqua;
+    }
+
+
+
+    & + &{
+        margin-left: 25px;
+    }
+}
+
+.footer__facebook-img{
+    display: block;
+    margin: auto;
+    padding-top: 11px;
+}
+
+.twitter{
+    padding-top:13px;
+}
+
+.triangle{
+    display: inline;
+    border-right: 350px solid transparent;
+    border-bottom: 70px solid black;
+    border-left: 350px solid transparent;
+    position: relative;
+    top: -155px;
+    left: 311px;
+}

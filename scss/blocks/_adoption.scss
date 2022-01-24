@@ -1,0 +1,53 @@
+.adoption{
+    // background-image: url(../../images/girl-with-dog.png);
+    // background-repeat: no-repeat;
+    // background-position: center;
+    // width: 640px;
+    // height: 491px;
+}
+
+.adoption__inner{
+    width: 487px;
+    padding-top: 72px;
+    margin-left: auto;
+}
+
+
+.adoption__pg{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #E27B3A;
+    opacity: 0.8;
+}
+
+.adoption__head{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32.25px;
+    line-height: 45px;
+    color: #170C04;
+}
+
+.adoption__desc-box{
+    width: 487px;
+}
+
+.adoption__desc{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #170C04;
+    opacity: 0.6;
+}

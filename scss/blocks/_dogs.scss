@@ -1,0 +1,61 @@
+
+
+.dogs__desc{
+    padding-top: 100px;
+}
+.dogs__heading{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 100px;
+    line-height: 120px;
+    color: #170C04;
+}
+.dogs__link{
+    padding: 12px 30px;
+    background: #E27B3A;
+    border-radius: 24px;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    transition: color 1s;
+
+    &:hover{
+        color: lightblue;
+    }
+}
+
+.dogs__links{
+    padding: 12px 30px;
+    background:lightgoldenrodyellow;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #E27B3A;
+    border: 1px solid #E27B3A;
+    box-sizing: border-box;
+    border-radius: 24px;
+    text-decoration: none;
+    margin-left: 20px;
+
+    &:hover{
+        color: lightblue;
+    }
+}
+
+.dogs__heading-box{
+    width:613px;
+}
+
+.dogs__link-box{
+    padding-top: 60px;
+}

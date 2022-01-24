@@ -1,0 +1,233 @@
+.product{
+    margin-top: 118px;
+}
+
+.product__heading{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32.25px;
+    line-height: 48px;
+    text-align: center;
+    color: #170C04;
+}
+
+.product__desc-box{
+    width: 505px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product__desc{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #170C04;
+    opacity: 0.6;
+    padding-top: 18px;
+}
+
+
+.product__img-first{
+    position: relative;
+    padding: 71px 91px;
+    background: #FCF2EB;
+    border-radius: 20px;
+    width: 555px;
+    transition: 0.5s;
+
+
+    &:hover{
+        display: block;
+        box-shadow: 0 0 7px 1px black;
+    }
+
+}
+.product__things{
+    display: flex;
+    padding-top: 25px;
+}
+.product__left + .product__right{
+    margin-left: 30px;
+}
+
+.product__bg{
+    display: block;
+    background-image: url("../images/Harness-Lead-Leash-MediumLarge-Blue\ 1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 373px;
+    height: 278px;
+
+}
+
+.product__mauris{
+    position: relative;
+    padding: 58px 125px;
+    background: #FCF2EB;
+    border-radius: 20px;
+    width: 555px;
+    transition: 0.5s;
+
+    &:hover{
+        display: block;
+        box-shadow: 0 0 7px 1px black;
+    }
+
+    .product__bag{
+        display: block;
+        background-image: url("../images/coco-img.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 304px;
+        height: 304px;
+    }
+}
+
+.product__bottom-decs{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 37px;
+    text-align: center;
+    color: #170C04;
+    padding-top: 25px;
+}
+
+.product__bottom-link{
+    display: block;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #E27B3A;
+    padding-top: 9px;
+
+}
+
+
+.list__bg{
+    padding:0 42px 10px 26px ;
+    width: 360px;
+    height: 273px;
+    background: #FCF2EB;
+    border-radius: 10px;
+    transition: 0.5s;
+
+    &:hover{
+        display: block;
+        box-shadow: 0 0 7px 1px black;
+    }
+}
+.list__bag{
+    display: block;
+    background-image: url("../images/marou.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 292px;
+    height: 292px;
+}
+
+.list__heading{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #170C04;
+    padding-top: 23px;
+}
+
+.list__link{
+    display: block;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #E27B3A;
+    padding-top: 13px;
+
+    &:hover{
+        color: #333;
+    }
+}
+
+.product__bootom-last{
+    display: flex;
+    padding-top: 57px;
+}
+
+.product__bottom-list + .product__bottom-list{
+    margin-left: 30px;
+}
+
+.bag__list{
+    padding:48px 83px;
+
+}
+
+.bg__list{
+    display: block;
+    background-image: url("../images/bacle.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 195px;
+    height: 177px;
+}
+
+
+.pg{
+    padding: 55px 49px;
+}
+
+.baground{
+    display: block;
+    background-image: url("../images/anna.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 262px;
+    height: 170px;
+}
+
+.product__btn{
+    margin-top: 46px;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #E27B3A;
+    background-color: lightgoldenrodyellow;
+    border: 1px solid #E27B3A;
+    box-sizing: border-box;
+    border-radius: 4px;
+    max-width: 185px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.5s;
+
+    &:hover{
+        color: #333;
+    }
+
+}

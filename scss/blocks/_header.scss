@@ -1,0 +1,71 @@
+.header-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 31px;
+}
+
+.site-header__heading{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+
+    &::before{
+        content: '';
+        display: block;
+        background-image: url("../../images/dog-img.svg");
+        background-position: center;
+        margin-left: 1px;
+        width: 36px;
+        height: 39px;
+    }
+}
+
+.sitenav__list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sitenav__item{
+    display: inline-block;
+
+    & + & {
+        margin-left: 55px;
+    }
+}
+
+.sitenav__link{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #170C04;
+    transition: 0.5s;
+
+    &:hover{
+        opacity: 0.5;
+
+    }
+}
+
+.site-header__link{
+    text-decoration: none;
+    transition: 0.6;
+
+    & +& {
+        margin-left: 40px;
+    }
+    &:hover{
+        opacity: 0.7;
+    }
+}
