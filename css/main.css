@@ -471,10 +471,15 @@ img {
 
 .sitenav__item {
   display: inline-block;
+  border: 2px solid transparent;
 }
 
 .sitenav__item + .sitenav__item {
   margin-left: 55px;
+}
+
+.sitenav__item:hover {
+  border-bottom: 2px solid dimgray;
 }
 
 .sitenav__link {
@@ -505,6 +510,41 @@ img {
 
 .site-header__link:hover {
   opacity: 0.7;
+}
+
+.site-header__link:hover .site-header__input {
+  display: block;
+}
+
+.site-header__input {
+  display: none;
+  padding: 5px 5px;
+  border-radius: 25px;
+  position: absolute;
+  top: 82px;
+  left: 78%;
+  font-family: 'Roboto', sans-serif;
+  outline: dimgray;
+}
+
+.site-header__input::-webkit-input-placeholder {
+  padding-left: 8px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.site-header__input:-ms-input-placeholder {
+  padding-left: 8px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.site-header__input::-ms-input-placeholder {
+  padding-left: 8px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.site-header__input::placeholder {
+  padding-left: 8px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .dogs__desc {
@@ -869,6 +909,10 @@ img {
   text-align: center;
   color: #E27B3A;
   padding-top: 9px;
+}
+
+.product__bottom-link:hover {
+  color: #333;
 }
 
 .list__bg {

@@ -36,10 +36,17 @@
 
 .sitenav__item{
     display: inline-block;
+    border: 2px solid transparent;
 
     & + & {
         margin-left: 55px;
     }
+
+    &:hover{
+        border-bottom: 2px solid dimgray;
+    }
+
+
 }
 
 .sitenav__link{
@@ -51,6 +58,8 @@
     line-height: 19px;
     color: #170C04;
     transition: 0.5s;
+
+
 
     &:hover{
         opacity: 0.5;
@@ -67,5 +76,25 @@
     }
     &:hover{
         opacity: 0.7;
+    }
+}
+
+
+
+.site-header__input{
+    display: none;
+    padding: 5px 5px;
+    border-radius: 25px;
+    position: absolute;
+    top: 82px;
+    left:78%;
+    font-family: 'Roboto', sans-serif;
+    outline: dimgray;
+
+
+
+    &::placeholder{
+        padding-left: 8px;
+        font-family: 'Roboto', sans-serif;
     }
 }
