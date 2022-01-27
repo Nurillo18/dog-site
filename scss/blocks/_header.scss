@@ -36,14 +36,21 @@
 
 .sitenav__item{
     display: inline-block;
+    padding: 5px 5px;
     border: 2px solid transparent;
 
     & + & {
-        margin-left: 55px;
+        margin-left: 50px;
     }
 
     &:hover{
         border-bottom: 2px solid dimgray;
+    }
+
+
+    &:hover{
+        opacity: 0.5;
+
     }
 
 
@@ -58,6 +65,7 @@
     line-height: 19px;
     color: #170C04;
     transition: 0.5s;
+    cursor: pointer;
 
 
 
@@ -65,6 +73,8 @@
         opacity: 0.5;
 
     }
+
+
 }
 
 .site-header__link{
@@ -75,8 +85,12 @@
         margin-left: 40px;
     }
     &:hover{
-        opacity: 0.7;
+        opacity: 0.5;
     }
+}
+
+.site-header__icop{
+    display: none;
 }
 
 
@@ -96,5 +110,22 @@
     &::placeholder{
         padding-left: 8px;
         font-family: 'Roboto', sans-serif;
+    }
+}
+
+
+
+@media only screen and (max-width:765px){
+    .sitenav__list{
+        display: none;
+    }
+}
+@media only screen and (max-width:327px){
+    .site-header__icop{
+        display: block;
+    }
+
+    .site-header__social{
+        display: none;
     }
 }

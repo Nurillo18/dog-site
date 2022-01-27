@@ -82,3 +82,26 @@
         color: lightblue;
     }
 }
+
+@media only screen and (max-width:1230px){
+    .monthly__list{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .monthly__item{
+        margin-top: 30px;
+    }
+
+    .monthly__head{
+        width: 100%;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width:445px){
+    .monthly__head{
+        font-size: 25px;
+    }
+}

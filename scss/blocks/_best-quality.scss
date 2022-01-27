@@ -4,10 +4,10 @@
     display: flex;
     align-items: center;
     list-style: none;
-    margin-top: 168px;
+    margin-top: 44px;
+    margin-left: -77px;
 }
 .best-quality__item{
-
     padding: 40px 25px 18px 25px;
     width: 360px;
     height: 241px;
@@ -15,15 +15,28 @@
     border: 1px solid rgba(0, 0, 0, 0.1);
     box-sizing: border-box;
     border-radius: 8px;
-    transition: 0.5s;
+    transition: 1s;
 
-    & +& {
+    &{
         margin-left: 61px;
     }
-
     &:hover{
         display: block;
         box-shadow: 0 0 7px 1px black;
+    }
+
+    &::after{
+        content: '';
+        display: block;
+        background-image: url("../../images/meal-sv.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 63px;
+        position: relative;
+        top: -140%;
+        left: 125px;
+        width: 63px;
+        height: 54px;
     }
 }
 .best-quality__heading{
@@ -39,6 +52,7 @@
     text-align: center;
     color: #170C04;
 
+
     &::before{
         content: '';
         display: block;
@@ -51,6 +65,7 @@
         left: 144px;
         width: 37px;
         height: 37px;
+
     }
 }
 
@@ -151,4 +166,26 @@
         width: 37px;
         height: 37px;
     }
+}
+@media only screen and (max-width:1240px){
+    .container{
+        width: 96%;
+    }
+    .best-quality__list{
+        flex-wrap: wrap;
+        align-items: center;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .best-quality__item{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+    }
+
+}
+@media only screen and (max-width:1120px){
+
 }

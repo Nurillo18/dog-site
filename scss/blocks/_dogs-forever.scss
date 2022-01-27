@@ -43,6 +43,8 @@
 }
 
 .dog-forever__input{
+    height: 70px;
+    width: 487px;
     position: relative;
     padding: 15px 324px 14px 21px;
     background: #FFFFFF;
@@ -66,7 +68,7 @@
 
 .dog-forever__btn{
     position: absolute;
-    left:985px;
+    left:377px;
     padding: 15px 37px;
     background: #E27B3A;
     border-radius: 0px 10px 10px 0px;
@@ -75,11 +77,136 @@
     font-style: normal;
     font-weight: 500;
     color: #FFFFFF;
+    height: 70px;
 
     &:hover{
         color: aqua;
     }
 }
 .dog-forever__form{
-    padding-left: 66px;
+    width: 487px;
+    position: relative;
+    left: -47px;
+    margin-left: 66px;
+}
+
+
+@media only screen and (max-width:1112px){
+    .dog-forever{
+        width: 100%;
+    }
+
+    .dog-forever__input{
+        width: 100%;
+    }
+    .dog-forever__page{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dog-forever__input{
+        margin-top: 30px;
+    }
+
+    .dog-forever__btn{
+        margin-top: 30px;
+
+    }
+}
+@media only screen and (max-width:700px){
+    .dog-forever__form{
+        display: none;
+    }
+}
+
+@media only screen and (max-width:680px){
+    .dog-forever__head{
+        width: 100%;
+        text-align: center;
+    }
+
+    .dog-forever__desc-box{
+        width: 100%;
+        text-align: center;
+    }
+    .dog-forever__form{
+        width: 100%;
+        align-items: center;
+
+    }
+    .dog-forever__input{
+        left: 60px;
+        width: 300px;
+    }
+    .dog-forever__btn{
+        left: 295px;
+    }
+}
+
+
+@media only screen and (max-width:540px){
+    .dog-forever__btn{
+        padding-top: 10px;
+        height: 40px;
+        top: 0;
+        left:260px;
+    }
+
+    .dog-forever__input{
+        left: 25px;
+        width: 250px;
+        height: 40px;
+    }
+}
+
+@media only screen and (max-width:505px){
+    .dog-forever__input{
+        left: -7px;
+    }
+    .dog-forever__btn{
+        left: 228px;
+    }
+}
+
+@media only screen and (max-width:462px){
+    .dog-forever__input{
+        margin-left: -56px;
+    }
+
+    .dog-forever__btn{
+        left: 204px;
+    }
+}
+
+@media only screen and (max-width:513px){
+    .dog-forever__form{
+
+    }
+}
+
+@media only screen and (max-width:435px){
+    .dog-forever__form{
+        width: 285px;
+    }
+
+    .dog-forever__input{
+        width: 150px;
+    }
+}
+
+@media only screen and (max-width:451px){
+    .dog-forever__head{
+        font-size: 23px;
+    }
+}
+
+@media only screen and (max-width:393px){
+    .dog-forever__input{
+        top: 80px;
+        background-color: red;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
 }

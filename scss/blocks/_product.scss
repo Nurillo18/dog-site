@@ -53,8 +53,9 @@
 .product__things{
     display: flex;
     padding-top: 25px;
+    margin-left: -18px;
 }
-.product__left + .product__right{
+.product__left{
     margin-left: 30px;
 }
 
@@ -75,6 +76,7 @@
     border-radius: 20px;
     width: 555px;
     transition: 0.5s;
+    margin-left: 30px;
 
     &:hover{
         display: block;
@@ -179,9 +181,10 @@
 .product__bootom-last{
     display: flex;
     padding-top: 57px;
+    margin-left: -19px;
 }
 
-.product__bottom-list + .product__bottom-list{
+.product__bottom-list {
     margin-left: 30px;
 }
 
@@ -235,4 +238,82 @@
         color: #333;
     }
 
+}
+
+@media only screen and (max-width:1195px){
+    .product__things{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .product__mauris{
+        margin-top: 40px;
+        margin-left: 37px;
+    }
+}
+
+@media only screen and (max-width:1204px){
+    .product__bootom-last{
+        flex-wrap: wrap;
+        align-items: center;
+        margin-left: -30px;
+    }
+
+    .product__bottom-list{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        align-items: center;
+    }
+    .product__btn{
+        position: relative;
+        left: -44px;
+    }
+}
+
+@media only screen and (max-width:605px){
+    .product__top{
+        width: 100%;
+        align-items: center;
+    }
+    .product__desc-box{
+        width: 100%;
+        align-items: center;
+    }
+
+    .product__img-first{
+        width: 400px;
+        height: 300px;
+    }
+    .product__bg{
+        background-size: 300px;
+        position: relative;
+        left: -77px;
+        top: -64px;
+    }
+
+    .product__mauris{
+        width: 400px;
+        height: 300px;
+    }
+    .product__bag{
+        background-size:250px;
+        position: relative;
+        left: -73px;
+        top: -60px;
+    }
+
+    .product__bootom-last{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .product__btn{
+       left: 5px;
+    }
+
+    .producr__bottom-desc{
+        margin-left: 15px;
+    }
 }

@@ -1,7 +1,16 @@
 
-
-.dogs__desc{
+.boxs{
+    display: flex;
     padding-top: 100px;
+}
+
+
+.dogs__puppy{
+    position: relative;
+    top: -120px;
+    left: -262px;
+    width: 916px;
+    height: 611px;
 }
 .dogs__heading{
     margin: 0;
@@ -58,4 +67,56 @@
 
 .dogs__link-box{
     padding-top: 60px;
+    padding-bottom: 12px;
+}
+
+
+@media only screen and (max-width:1160px){
+    .container{
+        width: 96%;
+    }
+    .dogs__puppy{
+        display: none;
+    }
+
+    .dogs__link-box{
+        width: 100%;
+        text-align: center;
+    }
+
+    .dogs__heading-box{
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:1380px){
+    .dogs__puppy{
+        left: -218px;
+        top: -92px;
+        width: 718px;
+        height: 500px;
+    }
+}
+
+@media only screen and (max-width:585px){
+    .dogs__heading{
+        margin-top: -60px;
+        font-size: 58px;
+    }
+}
+
+@media only screen and (max-width:360px){
+    .dogs__link-box{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .dogs__links{
+        position: relative;
+        left: -9px;
+        padding: 9px 19px;
+        margin-top: 10px;
+    }
 }

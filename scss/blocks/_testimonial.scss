@@ -74,3 +74,13 @@
     color: #170C04;
     opacity: 0.6;
 }
+
+@media only screen and (max-width:585px){
+    .testimonial__desc-box{
+        width: 100%;
+    }
+
+    .container{
+        width: 96%;
+    }
+}
